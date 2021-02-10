@@ -1,3 +1,5 @@
+package linearProgram;
+
 public class linearProgram1 {
             public  static void main(String[] args) {
                 double z;

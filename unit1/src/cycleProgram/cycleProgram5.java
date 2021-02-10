@@ -1,3 +1,5 @@
+package cycleProgram;
+
 public class cycleProgram5 {
     public  static void main(String[] args) {
         int n = 2;

@@ -1,3 +1,5 @@
+package linearProgram;
+
 public class linearProgram3 {
     public  static void main(String[] args) {
         double x = 3;

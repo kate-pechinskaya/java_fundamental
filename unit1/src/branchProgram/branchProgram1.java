@@ -1,3 +1,4 @@
+package branchProgram;
 public class branchProgram1 {
     public  static void main(String[] args) {
         int triangle1_a = 90;

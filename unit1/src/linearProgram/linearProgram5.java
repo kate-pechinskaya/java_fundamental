@@ -1,3 +1,5 @@
+package linearProgram;
+
 public class linearProgram5 {
     public  static void main(String[] args) {
         int t = 12345; //в сек

@@ -1,3 +1,5 @@
+package cycleProgram;
+
 public class cycleProgram6 {
     public  static void main(String[] args) {
 System.out.println((char)65);

@@ -1,3 +1,5 @@
+package linearProgram;
+
 public class linearProgram4 {
     public  static void main(String[] args) {
         double R = 123.456;
