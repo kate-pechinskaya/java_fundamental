@@ -14,20 +14,28 @@ public class arraysOfArrays2 {
         matrix[2][2] = 2;
         return matrix;
     }
-
-    public static void main(String[] args) {
-        print(createMatrix());
-    }
-
-    private static void print(int[][] matrix) {
+    private static int[][] printMatrix(int[][] matrix) {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print(matrix[i][j] + "\t");
-                System.out.println();
-                if(matrix[i][0]>matrix[i][3] && j%2==0)
-                    System.out.print(matrix[i][j] + "\t");
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }
+        return matrix;
+    }
+    private static int[][] printDiagonal(int[][] matrix) {
+        String s = "  ";
+        for (int i = 0; i < 3; i++) { {
+                System.out.print(s+ matrix[i][i] + " ");
+                s += "  ";
+            }
+            System.out.println();
+        }
+        return matrix;
+    }
+    public static void main(String[] args) {
+        printMatrix(createMatrix());
+        System.out.println();
+        printDiagonal(createMatrix());
     }
 }
