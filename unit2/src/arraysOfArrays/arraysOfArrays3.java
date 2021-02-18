@@ -16,7 +16,7 @@ public class arraysOfArrays3 {
         matrix[2][2] = 2;
 
     }
-    public static int[][] printKStringAndPColumn(int k, int p, int matrix){
+    public static int[][] printKStringAndPColumn(int k, int p, int[][] matrix){
         for (int i = 0; i < 2; i++) { //for String
             if(i == k)
                 for (int j = 0; j < 2; j++) {
@@ -24,7 +24,7 @@ public class arraysOfArrays3 {
                 }
 
         }
-        return;
+        return matrix;
     }
     public static void main(String[] args) {
 
