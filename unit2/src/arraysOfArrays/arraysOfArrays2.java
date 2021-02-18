@@ -2,7 +2,7 @@ package arraysOfArrays;
 public class arraysOfArrays2 {
     /*2.	Дана квадратная матрица.
      Вывести на экран элементы, стоящие на диагонали. */
-    public static void createMatrix() {
+    public static int[][] createMatrix() {
         int[][] matrix= new int[3][3];
         matrix[0][0] = 1;
         matrix[0][1] = -2;
@@ -12,11 +12,11 @@ public class arraysOfArrays2 {
         matrix[2][0] = 5;
         matrix[2][1] = 0;
         matrix[2][2] = 2;
+        return matrix;
     }
 
     public static void main(String[] args) {
-        createMatrix();
-
+        print(createMatrix());
     }
 
     private static void print(int[][] matrix) {
