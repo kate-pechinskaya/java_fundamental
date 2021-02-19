@@ -1,2 +1,2 @@
 # java_fundamental
-practic exercises for unit1
+practic exercises for java fundamental course
