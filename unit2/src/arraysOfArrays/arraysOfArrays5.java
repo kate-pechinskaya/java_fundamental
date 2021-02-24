@@ -12,7 +12,29 @@ public class arraysOfArrays5 {
      n-1  n-1   0 ... 0  0  0
       n    0    0 ... 0  0  0
              */
-    public static void main(String[] args) {
+    public static int[][] createMatrix(){
+        int[][] matrix = new int[5][5];
+        int n = 0;
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                if(i == n){
+                    matrix[i][j] = n + 1;
+                }
+                else {
 
+                }
+            }
+            n++;
+        }
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+        return matrix;
+    }
+    public static void main(String[] args) {
+        System.out.println(createMatrix());
     }
 }
