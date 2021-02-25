@@ -17,12 +17,11 @@ public class arraysOfArrays5 {
         int n = 0;
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                if(i == n){
-                    matrix[i][j] = n + 1;
-                }
-                else {
-
-                }
+                if(i + j < matrix.length) {
+                    if (i == n) {
+                        matrix[i][j] = n + 1;
+                    }
+                } else matrix[i][j] =0;
             }
             n++;
         }

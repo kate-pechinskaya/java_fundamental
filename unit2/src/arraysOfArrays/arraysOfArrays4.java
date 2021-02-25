@@ -31,8 +31,6 @@ public class arraysOfArrays4 {
                 }
             }
         }
-
-
         return matrix;
     }
     public static int[][] printMatrix(){
@@ -46,8 +44,6 @@ public class arraysOfArrays4 {
         return matrix;
     }
     public static void main(String[] args) {
-
         System.out.print(printMatrix());
-
     }
 }
