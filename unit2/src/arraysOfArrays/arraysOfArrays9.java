@@ -23,9 +23,11 @@ public class arraysOfArrays9 {
             System.out.println();
         }
         System.out.println();
-        int max = Math.max(countOneColumn, countTwoColumn);
-        int max1 = Math.max(max, countZeroColumn);
-        //Определить, какой столбец содержит максимальную сумму
-        System.out.println(countZeroColumn + " " + countOneColumn + " " + countTwoColumn);
+        System.out.println(countZeroColumn + " " + countOneColumn + " " + countTwoColumn );
+         if(countZeroColumn >= countOneColumn && countZeroColumn>= countTwoColumn)
+                System.out.println("первый столбец имеет максимальную сумму элементов :" + countZeroColumn);
+                    else if(countOneColumn>= countTwoColumn && countOneColumn>= countZeroColumn)
+                        System.out.println("второй столбец имеет максимальную сумму элементов :" + countOneColumn);
+                            else System.out.println("третий столбец имеет максимальную сумму элементов :" + countTwoColumn);
     }
 }
