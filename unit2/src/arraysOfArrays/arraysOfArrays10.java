@@ -5,8 +5,8 @@ public class arraysOfArrays10 {
         int[][] a = new int[5][5];
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                a[i][j]= ((int) (Math.random()*10) - 5);
-                if(i==j && a[i][j] > 0)
+                a[i][j] = ((int) (Math.random() * 10) - 5);
+                if (i == j && a[i][j] > 0)
                     System.out.print(a[i][j] + "  ");
             }
         }

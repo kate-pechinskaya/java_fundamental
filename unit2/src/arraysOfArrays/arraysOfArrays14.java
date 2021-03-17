@@ -14,7 +14,7 @@ public class arraysOfArrays14 {
         int[][] matrix = new int[m][n];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if(i+j >matrix.length-1)
+                if (i + j > matrix.length - 1)
                     matrix[i][j] = 1;
                 else matrix[i][j] = 0;
                 System.out.print(matrix[i][j] + "  ");

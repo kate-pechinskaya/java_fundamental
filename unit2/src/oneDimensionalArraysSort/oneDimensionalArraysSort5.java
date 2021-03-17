@@ -19,7 +19,7 @@ public class oneDimensionalArraysSort5 {
             int n = i - 1;
             for (; n >= 0; n--) {
 // Если вытащили значение меньшее — передвигаем больший элемент дальше
-                if(value < array[n]) {
+                if (value < array[n]) {
                     array[n + 1] = array[n];
                 } else {
 // Если вытащенный элемент больше — останавливаемся

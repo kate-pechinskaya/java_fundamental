@@ -18,7 +18,7 @@ public class arraysOfArrays8 {
         //матрица до смены столбцов
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                a[i][j]= (int) (Math.random()*10);
+                a[i][j] = (int) (Math.random() * 10);
                 System.out.print(a[i][j] + "  ");
             }
             System.out.println();
@@ -28,7 +28,7 @@ public class arraysOfArrays8 {
         for (int i = 0; i < 5; i++) {
             k = a[i][oneColumn];
             for (int j = 0; j < 5; j++) {
-                if(j == oneColumn) {
+                if (j == oneColumn) {
                     a[i][oneColumn] = a[i][twoColumn];
                     a[i][twoColumn] = k;
                 }

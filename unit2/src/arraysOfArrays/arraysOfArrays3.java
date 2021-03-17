@@ -5,7 +5,7 @@ public class arraysOfArrays3 {
     public static int[][] createMatrix() {
         int k = 2;
         int p = 1;
-        int[][] matrix= new int[3][3];
+        int[][] matrix = new int[3][3];
         matrix[0][0] = 1;
         matrix[0][1] = -2;
         matrix[0][2] = 3;
@@ -16,6 +16,7 @@ public class arraysOfArrays3 {
         matrix[2][2] = 2;
         return matrix;
     }
+
     public static int[][] print(int[][] matrix) {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -25,11 +26,13 @@ public class arraysOfArrays3 {
         }
         return matrix;
     }
-    public static int[][] printKStringAndPColumn(int k, int p, int[][] matrix){
+
+    public static int[][] printKStringAndPColumn(int k, int p, int[][] matrix) {
         for (int i = 0; i < 2; i++) { //for String
-            if(i == k)
+            if (i == k)
                 for (int j = 0; j < 3; j++) {
-                    System.out.print(matrix[i][j] + "\t");    ;
+                    System.out.print(matrix[i][j] + "\t");
+                    ;
                 }
         }
         System.out.println();
@@ -37,7 +40,7 @@ public class arraysOfArrays3 {
         for (int i = 0; i < 3; i++) { //for Column
             for (int j = 0; j < 3; j++) {
                 if (j == p) {
-                        System.out.println(matrix[i][j]);
+                    System.out.println(matrix[i][j]);
                 }
             }
         }

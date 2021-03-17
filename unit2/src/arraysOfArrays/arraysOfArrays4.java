@@ -15,17 +15,16 @@ public class arraysOfArrays4 {
       n  n-1  n-2 ... 1
      */
 
-    public static int[][] matrixFilling(){
+    public static int[][] matrixFilling() {
         int[][] matrix = new int[5][5];
         for (int i = 0; i < 5; i++) {
             int count = 1;
             int count2 = matrix[0][4];
             for (int j = 0; j < 5; j++) {
-                if(i%2==0 || i==0){
-                matrix[i][j] = count;
+                if (i % 2 == 0 || i == 0) {
+                    matrix[i][j] = count;
                     count++;
-                }
-                else  if(i%2 != 0){
+                } else if (i % 2 != 0) {
                     matrix[i][j] = count2;
                     count2--;
                 }
@@ -33,8 +32,9 @@ public class arraysOfArrays4 {
         }
         return matrix;
     }
-    public static int[][] printMatrix(){
-        int[][] matrix= matrixFilling();
+
+    public static int[][] printMatrix() {
+        int[][] matrix = matrixFilling();
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
                 System.out.print(matrix[i][j] + " ");
@@ -43,6 +43,7 @@ public class arraysOfArrays4 {
         }
         return matrix;
     }
+
     public static void main(String[] args) {
         System.out.print(printMatrix());
     }

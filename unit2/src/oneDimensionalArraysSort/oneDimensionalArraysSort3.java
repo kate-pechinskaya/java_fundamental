@@ -8,14 +8,14 @@ public class oneDimensionalArraysSort3 {
        а первый - на место наибольшего. Затем, начиная со второго,
         эта процедура повторяется. Написать алгоритм сортировки выбором. */
     public static void main(String[] args) {
-        int [] array = new int[]{1, 4, 6, 9, 12, 23, 45, 65, 245, 345};
+        int[] array = new int[]{1, 4, 6, 9, 12, 23, 45, 65, 245, 345};
         for (int i = 0; i < array.length; i++) {
             int max = array[i];
             int position = i;
-            for (int j = i+1; j < array.length; j++) {
+            for (int j = i + 1; j < array.length; j++) {
 // i - номер текущего шага
-                if(array[j] > max) {
-                    position= j;
+                if (array[j] > max) {
+                    position = j;
 // position - индекс наибольшего элемента
                     max = array[j];
                 }
