@@ -5,8 +5,6 @@ public class decomposition6 {
      являются ли данные три числа взаимно простыми. */
     public static void simple(int a, int b, int c) {
         int nod = 0;
-
-
     }
 
     public static void main(String[] args) {
