@@ -1,7 +1,5 @@
 package decomposition;
 
-import java.io.IOException;
-
 public class decomposition13 {
     /*13.	Два простых числа называются «близнецами», если они отличаются
      друг от друга на 2 (например, 41 и 43). Найти и напечатать все пары
@@ -19,7 +17,7 @@ public class decomposition13 {
         }
     }
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         array(20);
     }
 }
