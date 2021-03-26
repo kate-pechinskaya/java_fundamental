@@ -5,7 +5,7 @@ public class decomposition3 {
      используя метод вычисления площади треугольника. */
     public static double square(int a) {
         double square;
-        square = (double) (Math.sqrt(3) * 3 * Math.pow(a, 2) / 2);
+        square = Math.sqrt(3) * 3 * Math.pow(a, 2) / 2;
         return square;
     }
 
